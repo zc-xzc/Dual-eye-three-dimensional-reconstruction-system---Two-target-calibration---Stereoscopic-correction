@@ -1,0 +1,11 @@
+# 排除所有视频文件（核心！）
+*.avi
+*.mp4
+*.mov
+*.mkv
+# 通用排除规则
+.idea/
+.vscode/
+venv/
+__pycache__/
+Thumbs.db

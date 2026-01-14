@@ -1,0 +1,26 @@
+// 方案二流程图
+digraph {
+	graph [bgcolor=white fontname="Microsoft YaHei" fontsize=12 rankdir=LR size="12,6"]
+	node [fillcolor=lightgray fontname="Microsoft YaHei" fontsize=9 shape=box style=filled]
+	edge [fontname="Microsoft YaHei" fontsize=8]
+	label="方案二流程图" labelloc=t
+	"开始2" [label="开始：用户将垃圾投入垃圾箱"]
+	"图像采集2" [label="图像采集：箱内的相机捕捉垃圾图像"]
+	"图像上传" [label="图像上传：将图像上传至树莓派4B主控模块"]
+	"图像预处理" [label="图像预处理：主控模块对图像进行预处理，去除背景噪声"]
+	"垃圾识别" [label="垃圾识别：使用训练好的模型对垃圾进行分类识别"]
+	"控制信号发送2" [label="控制信号发送：根据识别结果，主控模块发送信号控制电机"]
+	"转板转动" [label="转板转动：电机驱动转板转动，将垃圾投入对应的垃圾桶"]
+	"垃圾存储" [label="垃圾存储：垃圾落入垃圾存储箱中"]
+	"垃圾清理2" [label="垃圾清理：垃圾存储箱底部的滑轨和插板方便垃圾清理和运输"]
+	"结束2" [label="结束：完成垃圾处理流程"]
+	"开始2" -> "图像采集2"
+	"图像采集2" -> "图像上传"
+	"图像上传" -> "图像预处理"
+	"图像预处理" -> "垃圾识别"
+	"垃圾识别" -> "控制信号发送2"
+	"控制信号发送2" -> "转板转动"
+	"转板转动" -> "垃圾存储"
+	"垃圾存储" -> "垃圾清理2"
+	"垃圾清理2" -> "结束2"
+}

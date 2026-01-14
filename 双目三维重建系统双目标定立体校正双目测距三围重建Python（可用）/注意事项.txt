@@ -1,0 +1,17 @@
+配置文件在configs，可以使用源代码替代运行程序
+D:\Desktop\yolo\双目三维重建系统双目标定立体校正双目测距三围重建Python\双目三维重建系统(双目标定 立体校正 双目测距 三维重建)Python\Camera-Calibration-Reconstruct\core\utils_3d
+open3d_tools.py
+open3d_visual.py
+import open3d as o3d  # 修复：正确导入 open3d
+demo.py里面为存放位置
+    left_video = 1
+    right_video = 0
+    #left_video = None
+    #right_video = None
+    #left_video = "data/lenacv-video/left_video.avi"
+    #right_video = "data/lenacv-video/right_video.avi"
+    #left_file = "docs/left.png"
+    #right_file = "docs/right.png"
+    left_file = ""
+    right_file = ""
+运行，先进行采集标定，要修改width和height表示的是相交点个数，然后进行标定

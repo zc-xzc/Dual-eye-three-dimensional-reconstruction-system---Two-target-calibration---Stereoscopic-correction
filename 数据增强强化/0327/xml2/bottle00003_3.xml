@@ -1,0 +1,26 @@
+<annotation>
+  <folder>D:/data00/0327/img2</folder>
+  <filename>bottle00003_3.jpg</filename>
+  <path>D:/data00/0327/img2\bottle00003_3.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>372</width>
+    <height>480</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>bottle</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>157</xmin>
+      <ymin>70</ymin>
+      <xmax>325</xmax>
+      <ymax>484</ymax>
+    </bndbox>
+  </object>
+</annotation>
