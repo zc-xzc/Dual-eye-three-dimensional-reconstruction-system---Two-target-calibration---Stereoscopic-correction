@@ -1,3 +1,7 @@
+<!-- licensing-notice -->
+> [!IMPORTANT]
+> This is a multi-license repository. In particular, `yolov12-main/` is AGPL-3.0 and is not covered by the root MIT license. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+
 # Stereo 3D Reconstruction System
 
 Dual-camera stereo vision system for 3D reconstruction, calibration, and distance measurement.
